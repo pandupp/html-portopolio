@@ -1,0 +1,10 @@
+.navigasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigasi a {
+    margin-left: 40px;
+    color: black;
+    text-decoration: none;
+  }
