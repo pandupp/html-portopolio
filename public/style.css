@@ -37,7 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #338496;
-    position: relative;
+    position: relativeb;
     flex: 1;
     margin: 10px;
     max-width: 960px;
@@ -63,7 +63,7 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
   }
   
-  .content {
+  /* .content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,14 +76,14 @@ body {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
-  }
+  } */
   
   .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #338496;
-    position: relative;
+    position: 10px;
     flex: 1;
     margin: 10px;
     max-width:auto;
@@ -112,6 +112,47 @@ body {
   }
   .desc{
     color: black;
+    padding: 20px 40px 20px 40px;
+    margin-top: -80px
   }
+  
+ .content {
+  margin-top: 10px;
+  margin-left: 10px;
+ }
+  
+  .desc {
+    font-family: Font2;
+    font-size: 45px;
+    color: #1F1E1E;
+    margin: 0;
+    position: fixed
+    top: 92px;
+    left: 0px;
+    /* z-index: 1; */
+  }
+
+  .bungkus{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #338496;
+    position: relative;
+    flex: 2;
+    margin: 10px;
+    max-width: 740px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+
+  }
+  .bung{
+    font-weight: 1000;
+    margin-top: -180px;
+    
+}
   
   
